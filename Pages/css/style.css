@@ -888,6 +888,10 @@ label 				 {
 }
 
 /*============  Junk  =============*/
+.checkbox1{
+  font-size: 0.85em;
+  font-weight: 300;
+}
 
 /*-- graphs --*/
 .graphs{
@@ -960,7 +964,7 @@ canvas#doughnut, canvas#line, canvas#polarArea, #bar, #pie, #radar{
   background-color:rgb(240, 253, 249);
   border-color:rgb(201, 247, 232);
 }
-.bs-example4 {
+.contracts-table {
   background: #fff;
   padding: 2em;
 }
