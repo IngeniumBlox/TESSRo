@@ -2,12 +2,12 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Funder Management</title>
+  <title>Smart Contract</title>
       <link rel="stylesheet" href="css/style.css">
       <meta http-equiv="expires" content="-1">
       <meta http-equiv="Pragma" content="no-cache" />
       <meta http-equiv="Cache-Control" content="no-cache" />
-      <!--<META HTTP-EQUIV="refresh" CONTENT="600"> -->
+      <!--<META HTTP-EQUIV="refresh" CONTENT="600">-->
       <meta charset="utf-8">
       <meta name="format-detection" content="telephone=no"/>
       <link rel="icon" href="images/favicon.png" type="image/png">
@@ -52,6 +52,7 @@
     <li class="menu-item"><a href="#">Financials</a></li>
     <li class="menu-item"><a href="s_contract.html">Smart Contract</a></li>
     <li class="menu-item"><a href="#">Customers</a></li>
+    <li class="menu-item"><a href="#">Suppliers</a></li>
     <li class="menu-item"><a href="#">Reports</a></li>
     <li class="menu-item"><a href="#">My Account</a></li>
     <li class="menu-item"><a href="#">Wallet</a></li>
@@ -64,66 +65,90 @@
 <section id="content">
 <div class="container">
     <div class="row wrap_1">
-        <div class="grid_5">
-            <div class="wrap_6">
-                <div class="box_2 maxheight2">
-                    
-                    
-                        <h3 class="text_2 color_2">
-                            Content Area
-                        </h3>
-                        
-                        
-                    
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-        </div>
-   <div class="grid_5">
-            <div class="wrap_6">
-                <div class="box_2 maxheight2">
-                    
-                    
-                        <h3 class="text_2 color_2">
-                            Content Area
-                        </h3>
-                        
-                        
-                   
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-        </div>
-        <div class="grid_5">
-            <div class="wrap_6">
-                <div class="box_2 maxheight2">
-                    
-                   
-                        <h3 class="text_2 color_2">
-                            Content Area
-                        </h3>
-                        
-                        
-                  
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-        </div>
-        <div class="grid_5">
-            <div class="wrap_6">
-                <div class="box_2 maxheight2">
-                    
-                  
-                        <h3 class="text_2 color_2">
-                            Content Area
-                        </h3>
-                        
-                        
-                    
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-        </div>
+    <p>
+    <button type="button" class="btn btn-info" onClick="window.location='sc_new.html' ">Create New Smart Contract</button>
+    </p>
+    <h3>Smart Contracts</h3>
+          	<div class="contracts-table" data-scontract-id="scontract-table">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Contract Refference Number</th>
+          <th>Partner</th>
+          <th>Type</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="success">
+          <th scope="row">1</th>
+          <td>EX04356</td>
+          <td>Carrier 2</td>
+          <td>Buy</td>
+          <td>Active</td>
+        </tr>
+        <tr class="success">
+          <th scope="row">2</th>
+          <td>EX00012</td>
+          <td>Carrier 8</td>
+          <td>Buy</td>
+          <td>Active</td>
+        </tr> 
+        <tr class="success">
+          <th scope="row">3</th>
+          <td>EX12311</td>
+          <td>Carrier 4</td>
+          <td>Sell</td>
+          <td>Active</td>
+        </tr>             
+        <tr class="active">
+          <th scope="row">4</th>
+          <td>EX52345</td>
+          <td>Carrier 21</td>
+          <td>Buy</td>
+          <td>Terminated</td>
+        </tr> 
+        <tr class="active">
+          <th scope="row">5</th>
+          <td>EX83546</td>
+          <td>Carrier 17</td>
+          <td>Buy</td>
+          <td>Terminated</td>
+        </tr>    
+        <tr class="active">
+          <th scope="row">6</th>
+          <td>EX15435</td>
+          <td>Carrier 7</td>
+          <td>Buy</td>
+          <td>Terminated</td>
+        </tr>    
+        <tr class="active">
+          <th scope="row">7</th>
+          <td>EX87674</td>
+          <td>Carrier 24</td>
+          <td>Buy</td>
+          <td>Terminated</td>
+        </tr>    
+        <tr class="active">
+          <th scope="row">8</th>
+          <td>EX63677</td>
+          <td>Carrier 11</td>
+          <td>Sell</td>
+          <td>Terminated</td>
+        </tr>       
+        <tr class="danger">
+          <th scope="row">9</th>
+          <td>EX99422</td>
+          <td>Carrier 7</td>
+          <td>Sell</td>
+          <td>Waiting for action</td>
+        </tr>
+      </tbody>
+    </table>
+   </div>
+        
+        
     </div>
 </div>
      

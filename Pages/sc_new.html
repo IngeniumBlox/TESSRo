@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Contract</title>
+      <link rel="stylesheet" href="css/style.css">
+      <meta http-equiv="expires" content="-1">
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Cache-Control" content="no-cache" />  
+      <!--<META HTTP-EQUIV="refresh" CONTENT="600">-->    
+      <meta charset="utf-8">
+      <meta name="format-detection" content="telephone=no"/>
+      <link rel="icon" href="images/favicon.png" type="image/png">
+      <link rel="stylesheet" href="css/grid.css">
+      <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+      <script src="js/jquery.js"></script>
+      <script src="js/jquery.equalheights.js"></script>
+</head>
+
+<body>
+<!--========================================================
+                          HEADER
+=========================================================-->
+<header id="header">
+    <div id="stuck_container">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <div class="brand put-left">
+                        <h1>
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="Logo"/>
+                            </a></h1>
+                    </div>
+                    <nav class="nav put-right">
+                        <ul class="sf-menu">
+                            <li class="current"><a href="login.html">Logout</a></li>
+                                                        
+                        </ul> 
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<hr/>
+<!--========================================================
+                          CONTENT
+=========================================================--> 
+<nav class="cnav">
+  <ul class="cmenu">
+    <li class="menu-item"><a href="#">Financials</a></li>
+    <li class="menu-item"><a href="s_contract.html">Smart Contract</a></li>
+    <li class="menu-item"><a href="#">Customers</a></li>
+    <li class="menu-item"><a href="#">Suppliers</a></li>
+    <li class="menu-item"><a href="#">Reports</a></li>
+    <li class="menu-item"><a href="#">My Account</a></li>
+    <li class="menu-item"><a href="#">Wallet</a></li>
+    <li class="menu-item"><a href="#">Support</a></li>
+    <li class="menu-item"><a href="#">Info</a></li>
+  </ul>
+</nav>
+
+
+<section id="content">
+  <div class="container">
+        
+	     <div class="grid_12">
+         
+  	       <h2 align="center">New Smart Contract</h2>
+          <hr/>
+           <div class="tab-content">
+						<div class="tab-pane active" id="horizontal-form">
+							<form class="form-horizontal">								
+            <h3>Technical Terms</h3>                    
+                                <div class="form-group">
+									<label for="readText" class="col-sm-5 control-label">Supplier</label>
+									<div class="col-sm-3">
+										<input disabled="" type="text" class="form-control1" id="readText" placeholder="read in carriers name automatically ">
+									</div>
+								</div>
+                                <div class="form-group">
+									<label for="selector1" class="col-sm-5 control-label">Customer
+</label>
+									<div class="col-sm-3"><select name="selector1" id="selector1" class="form-control1">
+										<option>Carrier 1</option>
+										<option>Carrier 2</option>
+										<option>Carrier 3</option>
+										<option>Carrier 4</option>
+									</select></div>
+								</div>
+                                <div class="form-group">
+									<label for="readText" class="col-sm-5 control-label">Own IP</label>
+									<div class="col-sm-3">
+										<input disabled="" type="text" class="form-control1" id="readText" placeholder="read in carrier IP automatically">
+									</div>
+								</div>
+                                <div class="form-group">
+									<label for="readText" class="col-sm-5 control-label">Customer IP</label>
+									<div class="col-sm-3">
+										<input disabled="" type="text" class="form-control1" id="readText" placeholder="read in partner IP automatically">
+									</div>
+								</div>
+                                <div class="form-group">
+									<label for="selector1" class="col-sm-5 control-label">Protocol</label>
+									<div class="col-sm-3"><select name="selector1" id="selector1" class="form-control1">
+										<option>SIP</option>
+										<option>H323</option>                                      
+									</select></div>
+								</div>
+                                <div class="form-group">
+									<label for="selector1" class="col-sm-5 control-label">Codec</label>
+									<div class="col-sm-3"><select name="selector1" id="selector1" class="form-control1">
+										<option>All</option>
+                                        <option>G711</option>
+                                        <option>G723</option>
+                                        <option>G729</option>
+										
+									</select></div>
+								</div>
+                                <div class="form-group">
+									<label for="inputText" class="col-sm-5 control-label">Prefix</label>
+									<div class="col-sm-3">
+										<input type="char" class="form-control1" id="inputText" placeholder="Input">
+									</div>
+								</div>
+<hr/>                                
+         <h3>Commercial Terms</h3>         
+         						<div class="form-group">
+									<label for="selector1" class="col-sm-5 control-label">Invoice Period</label>
+									<div class="col-sm-3"><select name="selector1" id="selector1" class="form-control1">
+										<option>Daily</option>
+                                        <option>7 days</option>
+                                        <option>30 days</option>  
+									</select></div>
+								</div>
+                                <div class="form-group">
+									<label for="selector1" class="col-sm-5 control-label">Billing Time Zone</label>
+									<div class="col-sm-3"><select name="selector1" id="selector1" class="form-control1">
+										<option>UTC -12:00</option>
+                                        <option>UTC -11:00</option>
+                                        <option>UTC -10:00</option>
+                                        <option>UTC +10:00</option>
+                                        <option>UTC +11:00</option>  
+									</select></div>
+								</div>
+                                <div class="form-group">
+									<label for="readText" class="col-sm-5 control-label">Currency</label>
+									<div class="col-sm-3">
+										<input disabled="" type="text" class="form-control1" id="readText" placeholder="USD">
+									</div>
+								</div>
+                                <div class="form-group">
+									<label for="inputText" class="col-sm-5 control-label">Allocated Amount</label>
+									<div class="col-sm-3">
+										<input type="char" class="form-control1" id="inputText" placeholder="Input">
+									</div>
+								</div>
+                                <div class="form-group">
+                                     <label class="col-sm-5 control-label">Contract Start Date</label>
+                                     <div class="col-sm-3">
+                                         <input type="date" class="form-control1 ng-invalid ng-invalid-required" ng-model="model.date" required="">
+                                     </div>    
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-sm-5 control-label">Contract End Date</label>
+                                     <div class="col-sm-3">
+                                         <input type="date" class="form-control1 ng-invalid ng-invalid-required" ng-model="model.date" required="">
+                                     </div>    
+                                </div>
+                                       
+ &nbsp;
+<!--========================================================
+                      OFFER SECTION
+=========================================================-->
+	<hr/>
+    <h3 align="center">Offer</h3>
+    					    <div class="panel panel-warning" data-widget="{&quot;draggable&quot;: &quot;false&quot;}" data-widget-static="">
+				<div class="panel-body no-padding">
+					<table class="table table-striped">
+						<thead>
+							<tr class="warning">
+								<th>#</th>
+								<th>Country</th>
+								<th>Destination</th>
+								<th>Type</th>
+                                <th>Billing Increment</th>
+                                <th>Price</th>
+                                <th> </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td><select name="selector1" id="selector1" class="form-control1">
+										<option>Country1</option>
+                                        <option>Country2</option>
+                                        <option>Country3</option>  
+									</select></td>
+								<td><select name="selector1" id="selector1" class="form-control1">
+										<option>Destination1</option>
+                                        <option>Destination2</option>
+                                        <option>Destination3</option>  
+									</select></td>
+								<td><select name="selector1" id="selector1" class="form-control1">
+										<option>CLI</option>
+                                        <option>NON-CLI</option>                                         
+									</select></td>
+                                <td><select name="selector1" id="selector1" class="form-control1">
+										<option>1/1</option>
+                                        <option>6/1</option>
+                                        <option>6/6</option>
+                                        <option>30/1</option>
+                                        <option>30/6</option>
+                                        <option>60/1</option>
+                                        <option>60/60</option>  
+									</select></td>
+                                <td><input type="char" class="form-control1" id="inputText" placeholder="Input"></td>        
+                                <td><button type="button" class="btn btn-xs btn-success">Save</button>
+                                <button type="button" class="btn btn-xs btn-danger">Cancel</button>
+                                </td>
+							</tr>
+							
+						</tbody>
+					</table>
+				</div>
+	</div>
+  					
+                                <div class="row wrap_17 wrap_5">							
+									<div class="col-sm-4 col-sm-offset-4">
+										<div class="checkbox-inline1"><label><input type="checkbox"> I have read the full agreement and I agree with terms and conditions</label></div>										
+									</div>
+                                </div>                                
+                             	    <div class="row">                              
+										<p align="center"> <button class="btn-success btn">Save draft</button>
+										    <button class="btn-default btn">Discard changes</button>
+                                        </p>
+										<p align="center"><button class="btn-primary btn">Sign contract</button> </p>
+								    </div>                          		
+							</form>
+                        
+						</div>
+					</div>
+  	           </div>
+          </div>
+     
+ </section> 
+     
+ </section>  
+ &nbsp;
+<!--========================================================
+                          FOOTER
+=========================================================-->
+<div class="footer">
+                <p class="info text_5 color_7">
+                    Copyright © <span id="copyright-year"></span> TESSPAY
+                </p>
+</div>
+<script src="js/jquery.js"></script>  
+</body>
+</html>
